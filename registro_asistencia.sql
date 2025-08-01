@@ -37,9 +37,21 @@ CREATE TABLE IF NOT EXISTS `curso` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nombre` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Volcando datos para la tabla registro_asistencia.curso: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla registro_asistencia.curso: ~11 rows (aproximadamente)
+REPLACE INTO `curso` (`id`, `nombre`) VALUES
+	(1, '1-A'),
+	(2, '2-A'),
+	(3, '3-A'),
+	(4, '4-A'),
+	(5, '5-A'),
+	(6, '6-A'),
+	(7, '7-A'),
+	(8, '8-A'),
+	(9, '9-A'),
+	(10, '10-A'),
+	(11, '11-A');
 
 -- Volcando estructura para tabla registro_asistencia.estudiante
 CREATE TABLE IF NOT EXISTS `estudiante` (
